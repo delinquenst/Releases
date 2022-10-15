@@ -1,5 +1,3 @@
--- credit to matierial for this :)
-
 local Player = game:GetService("Players").LocalPlayer
 local Mouse = Player:GetMouse()
 
@@ -10,13 +8,12 @@ local InputService = game:GetService("UserInputService")
 local CoreGuiService = game:GetService("CoreGui")
 local ContentService = game:GetService("ContentProvider")
 
-
 local Themes = {
 	Blue = {
-     Minimise = Color3.fromRGB(255,106,0),
-     MinimiseAccent = Color3.fromRGB(255,106,0),
-     Maximise = Color3.fromRGB(200,90,0),
-     MaximiseAccent = Color3.fromRGB(200,90,0),
+        Minimise = Color3.fromRGB(255,106,0),
+        MinimiseAccent = Color3.fromRGB(255,106,0),
+        Maximise = Color3.fromRGB(200,90,0),
+        MaximiseAccent = Color3.fromRGB(200,90,0),
      MainFrame = Color3.fromRGB(36, 65, 191),
      NavBar = Color3.fromRGB(200, 200, 200), 
      NavBarAccent = Color3.fromRGB(55, 70, 204), 
@@ -24,12 +21,9 @@ local Themes = {
      TitleBar = Color3.fromRGB(69, 95, 179),
      Overlay = Color3.fromRGB(36, 65, 191),
      Banner = Color3.fromRGB(255,255,255),
-     BannerAccent = Color3.fromRGB(148, 51, 51), 
+     BannerAccent = Color3.fromRGB(79, 108, 204), 
      Content = Color3.fromRGB(79, 108, 204), 
      Button = Color3.fromRGB(79, 108, 204), 
-     ButtonAccent = Color3.fromRGB(235,235,235),
-     Content = Color3.fromRGB(163, 57, 57), 
-     Button = Color3.fromRGB(163, 57, 57), 
      ButtonAccent = Color3.fromRGB(235,235,235),
      ChipSet = Color3.fromRGB(79, 108, 204),
      ChipSetAccent = Color3.fromRGB(235,235,235),
@@ -111,7 +105,6 @@ local Themes = {
      TextFieldAccent = Color3.fromRGB(235, 235, 235)
 	},
 }
-
 
 local Types = {
 	"RoundFrame",
