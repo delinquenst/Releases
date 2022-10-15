@@ -19,6 +19,7 @@ local Themes = {
      NavBarAccent = Color3.fromRGB(55, 70, 204), 
      NavBarInvert = Color3.fromRGB(66, 80, 214), 
      TitleBar = Color3.fromRGB(69, 95, 179),
+     TitleBarAccent = Color3.fromRGB(255,255,255),
      Overlay = Color3.fromRGB(36, 65, 191),
      Banner = Color3.fromRGB(255,255,255),
      BannerAccent = Color3.fromRGB(79, 108, 204), 
