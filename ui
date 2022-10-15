@@ -1,5 +1,3 @@
--- Credit to material.
-
 local Player = game:GetService("Players").LocalPlayer
 local Mouse = Player:GetMouse()
 
@@ -172,6 +170,7 @@ local Themes = {
 		TextFieldAccent = Color3.fromRGB(255,255,255),
 	}
 }
+
 local Types = {
 	"RoundFrame",
 	"Shadow",
@@ -205,21 +204,21 @@ local ActualTypes = {
 local Properties = {
 	RoundFrame = {
 		BackgroundTransparency = 1,
-		Image = "http://www.roblox.com/asset/?id=11277856425",
+		Image = "http://www.roblox.com/asset/?id=5554237731",
 		ScaleType = Enum.ScaleType.Slice,
 		SliceCenter = Rect.new(3,3,297,297)
 	},
 	SmoothButton = {
 		AutoButtonColor = false,
 		BackgroundTransparency = 1,
-		Image = "http://www.roblox.com/asset/?id=11277856425",
+		Image = "http://www.roblox.com/asset/?id=5554237731",
 		ScaleType = Enum.ScaleType.Slice,
 		SliceCenter = Rect.new(3,3,297,297)
 	},
 	Shadow = {
 		Name = "Shadow",
 		BackgroundTransparency = 1,
-		Image = "http://www.roblox.com/asset/?id=11277861255",
+		Image = "http://www.roblox.com/asset/?id=5554236805",
 		ScaleType = Enum.ScaleType.Slice,
 		SliceCenter = Rect.new(23,23,277,277),
 		Size = UDim2.fromScale(1,1) + UDim2.fromOffset(30,30),
@@ -227,12 +226,12 @@ local Properties = {
 	},
 	Circle = {
 		BackgroundTransparency = 1,
-		Image = "http://www.roblox.com/asset/?id=11277866027"
+		Image = "http://www.roblox.com/asset/?id=5554831670"
 	},
 	CircleButton = {
 		BackgroundTransparency = 1,
 		AutoButtonColor = false,
-		Image = "http://www.roblox.com/asset/?id=11277866027"
+		Image = "http://www.roblox.com/asset/?id=5554831670"
 	},
 	Frame = {
 		BackgroundTransparency = 1,
@@ -270,13 +269,13 @@ local Properties = {
 		Name = "More",
 		AutoButtonColor = false,
 		BackgroundTransparency = 1,
-		Image = "http://www.roblox.com/asset/?id=11277885605",
+		Image = "http://www.roblox.com/asset/?id=5555108481",
 		Size = UDim2.fromOffset(20,20),
 		Position = UDim2.fromScale(1,0.5) - UDim2.fromOffset(25,10)
 	},
 	NavBar = {
 		Name = "SheetToggle",
-		Image = "http://www.roblox.com/asset/?id=11277903227",
+		Image = "http://www.roblox.com/asset/?id=5576439039",
 		BackgroundTransparency = 1,
 		Size = UDim2.fromOffset(20,20),
 		Position = UDim2.fromOffset(5,5),
